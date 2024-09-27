@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d1117; /* Fond sombre */
+    color: #c9d1d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.register-box {
+    background-color: #161b22;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+.message-box {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #c9d1d9;
+}
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-size: 16px;
+    width: 100%;
+}
+
+.email-input::placeholder {
+    color: #6e7681;
+}
+.continue-button {
+    background-color: #238636;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.continue-button:hover {
+    background-color: #2ea043;
+}
